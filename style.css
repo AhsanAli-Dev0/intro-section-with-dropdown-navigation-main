@@ -1,0 +1,79 @@
+
+body{
+  font-family: "Epilogue", sans-serif;
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-size: 18px;
+  font-style: normal;
+}
+img:not(.dropdown-item img,.side-img img ){
+  width: 100%;
+}
+.offcanvas.offcanvas-end{
+  width: 60% !important;
+}
+.navbar-nav li a{
+  font-family: "Epilogue", sans-serif;
+  font-weight: 500;
+}
+.side-img img{
+  width: 84%;
+  margin: auto;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+.dropdown-icon::after {
+  content:url(./images/icon-arrow-down.svg) !important;
+}
+.dropdown-icon:hover::after{
+  content:url(./images/icon-arrow-up.svg) !important;
+  transition: 2s;
+}
+.title h1,b{
+  font-family: "Epilogue", sans-serif;
+  font-weight: 700 !important;
+  font-size: 79px !important;
+}
+.title h1{
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+.content p{
+  font-family: "Epilogue", sans-serif;
+ font-weight: 400;
+ padding-bottom: 44px;
+ 
+}
+.company-logos{
+  margin-top: 64px;
+}
+@media screen and (max-width:540px) {
+  .title h1,b{
+    font-family: "Epilogue", sans-serif;
+    font-weight: 700 !important;
+    font-size: 29px !important;
+    text-align: center ;
+  }
+  .title h1{
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+  .content p{
+    text-align: center;
+ padding-bottom: 20px;
+  }
+ .button{
+  text-align: center;
+ }
+ .company-logos{
+  padding-bottom: 24px;
+  margin-top: 24px;
+
+}
+.company-logos img {
+  width: 80%;
+  margin: auto;
+}
+}
